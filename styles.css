@@ -1,0 +1,138 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&family=Roboto+Condensed:ital@0;1&family=Ubuntu:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+html{
+	height: 100%;
+}
+body {
+	background-color:#FFFFFF;
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.headerBackground{
+	background-color: #D7FFAE
+}
+.headerDiv{
+	text-align: center;
+}
+.headerText {
+font-family: 'Roboto', sans-serif;
+	color: black;
+	font-size: 30px;
+	text-align: center;
+}
+
+.links {
+font-family: 'Roboto', sans-serif;	color: black;
+	font-style: italic;
+	font-size: 20px;
+	text-align: center;
+}
+table{
+	font-family: 'Roboto', sans-serif;
+	border-collapse: collapse;
+	width: auto;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+th,td{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+a{
+	color: black
+}
+a:hover {
+	color: red
+}
+p{
+	padding-left: 10px;
+}
+h1, h2, h3{
+	margin-left: 10px;
+}
+div.round {
+	border: 1px solid black;
+	border-radius: 10px;
+}
+.text{
+	font-family: 'Roboto', sans-serif;	color: black;
+	font-size: 25px;
+}
+.split {
+  max-height: inherit;
+  width: 49%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding: 0px 20px ;
+  box-sizing: border-box ;
+  margin-top: 230px;
+  margin-bottom: 35px;
+ }
+.split75{
+	max-height: inherit;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	margin-bottom: 35px;
+	width: 74%;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;	color: black;
+	font-size: 20px;
+	text-align: justify-all
+}
+.split25{
+	max-height: inherit;
+	position:absolute;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	margin-bottom: 35px;
+	width: 24%;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;	color: black;
+	font-size: 20px;
+	text-align: justify-all;
+	top: 0;
+	margin-top: 140px;
+}
+.splitBottom{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: 1;
+	height: 25px
+}
+.left {
+  left: 0;
+	margin-left: 0.5%
+}
+
+.right {
+  right: 0;
+	margin-right: 0.5%
+}
+.content{
+	max-height: inherit;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	margin-bottom: 35px;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;	color: black;
+	font-size: 20px;
+	text-align: justify-all
+}
+.centered {
+  position: absolute;
+  text-align: center;
+}
+.centered img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
